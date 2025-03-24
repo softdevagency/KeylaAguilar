@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Keyla Aguilar - Consultas de nutrición personalizadas, planes de alimentación y asesoría en salud." />
+    <meta name="keywords" content="nutrición, dietas, alimentación saludable, control de peso, asesoría nutricional" />
+    <meta name="author" content="Keyla Aguilar" />
+
+    <!-- title -->
+    <title>Bienestar - Contactonos</title>
+
+    <!-- favicon -->    
+     <link rel="icon" type="image/x-icon" href="assets/img/logo/logo-light.ico" />
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/all-fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/css/flaticon.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- header area -->
+    <header class="header">
+      <!-- top header -->
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top-wrapper">
+            <div class="header-top-left">
+              <div class="header-top-contact">
+                <ul>
+                  <li>
+                    <a href="tel:+529621237344"
+                      ><i class="far fa-phone"></i>+52 962 123 7344</a
+                    >
+                  </li>
+                  <li>
+                    <a href="mailto:Keyla.aguilar@icloud.com"
+                      ><i class="far fa-envelope"></i>
+                      Keyla.aguilar@icloud.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="header-top-right">
+              <div class="header-top-social">
+                <span>Síguenos:</span>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-navigation">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="index">
+              <img src="assets/img/logo/logo.png" alt="Keyla Aguilar - Nutrición y Salud" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#main_nav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"><i class="far fa-stream"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="TYC">TYC</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="contactanos">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="preguntas">Preguntas</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- header area end -->
+
+
+
+
+    <main class="main">
+
+      <!-- breadcrumb -->
+<div class="site-breadcrumb" style="background: url(assets/img/breadcrumb/breadcrumb.jpg)">
+    <div class="container">
+        <h2 class="breadcrumb-title">Contáctanos</h2>
+        <ul class="breadcrumb-menu">
+            <li><a href="index">Inicio</a></li>
+            <li class="active">Contáctanos</li>
+        </ul>
+    </div>
+</div>
+<!-- breadcrumb end -->
+
+<!-- contact area -->
+<div class="contact-area py-120">
+    <div class="container">
+        <div class="contact-wrapper">
+            <div class="row">
+                <div class="col-md-8 align-self-center">
+                    <div class="contact-form">
+                        <div class="contact-form-header">
+                            <h2>Ponte en contacto</h2>
+                            <p>Estamos aquí para resolver tus dudas y ayudarte en tu camino hacia una mejor alimentación y salud.</p>
+                        </div>
+                        <form id="contact-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Tu Nombre" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Tu Correo Electrónico" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="subject" placeholder="Asunto" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" cols="30" rows="5" class="form-control" placeholder="Escribe tu mensaje"></textarea>
+                            </div>
+                            <button type="button" class="theme-btn" onclick="sendWhatsApp()">
+                                <i class="far fa-paper-plane"></i> Enviar Mensaje
+                            </button>
+                            <div class="col-md-12 mt-3">
+                                <div class="form-messege text-success"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <div class="contact-info-icon">
+                                <i class="fal fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-info-content">
+                                <h5>Ubicación</h5>
+                                <p>Tapachula, Chiapas, México</p>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-info-icon">
+                                <i class="fal fa-phone"></i>
+                            </div>
+                            <div class="contact-info-content">
+                                <h5>Llámanos</h5>
+                                <p><a href="https://wa.me/529621237344" target="_blank">+52 962 123 7344</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-info-icon">
+                                <i class="fal fa-envelope"></i>
+                            </div>
+                            <div class="contact-info-content">
+                                <h5>Correo Electrónico</h5>
+                                <p><a href="mailto:Keyla.aguilar@icloud.com">Keyla.aguilar@icloud.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15304.373496107253!2d-92.2895972!3d14.9022024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858de313b6d3f7f9%3A0x18bfc8d1c1e8a3b5!2sTapachula%2C%20Chis.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1619410634508!5m2!1ses!2sus"
+                style="border:0; width:100%; height:400px;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</div>
+<!-- end contact area -->
+
+<script>
+function sendWhatsApp() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var subject = document.getElementById("subject").value;
+    var message = document.getElementById("message").value;
+
+    var text = `Hola, mi nombre es ${name}. %0A📩 Correo: ${email} %0A📌 Asunto: ${subject} %0A✍️ Mensaje: ${message}`;
+    var phone = "529621237344"; // Número de WhatsApp
+
+    var url = `https://wa.me/${phone}?text=${text}`;
+    window.open(url, "_blank");
+}
+</script>
+
+
+
+    </main>
+
+
+
+<!-- footer area -->
+<footer class="footer-area">
+    <div class="footer-widget">
+      <div class="container">
+        <div class="row footer-widget-wrapper pt-100 pb-70">
+          <div class="col-md-6 col-lg-4">
+            <div class="footer-widget-box about-us">
+              <a href="#" class="footer-logo">
+                <img src="assets/img/logo/logo-light.png" alt="Keyla Aguilar" />
+              </a>
+              <p class="mb-20">
+                Keyla Aguilar es un centro especializado en nutrición que ofrece
+                consultas personalizadas, planes de alimentación y asesoría en
+                salud para mejorar tu bienestar.
+              </p>
+              <ul class="footer-social">
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-x-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/nutri_key_aguilar/"><i class="fab fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-widget-box">
+              <h4 class="footer-widget-title">Contáctanos</h4>
+              <ul class="footer-contact">
+                <li>
+                  <i class="far fa-map-marker-alt"></i> Tapachula, Chiapas, México
+                </li>
+                <li>
+                  <a href="tel:+529621237344"
+                    ><i class="far fa-phone"></i>+52 962 123 7344</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:Keyla.aguilar@icloud.com"
+                    ><i class="far fa-envelope"></i>Keyla.aguilar@icloud.com</a
+                  >
+                </li>
+                <li><i class="far fa-clock"></i>Lunes - Viernes (09AM - 07PM)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="footer-widget-box list">
+              <h4 class="footer-widget-title">Enlaces Rápidos</h4>
+              <ul class="footer-list">
+                <li>
+                  <a href="nosotros"><i class="fas fa-caret-right"></i> Sobre Nosotros</a>
+                </li>
+                <li>
+                  <a href="preguntas"><i class="fas fa-caret-right"></i> Preguntas Frecuentes</a>
+                </li>
+                <li>
+                  <a href="servicios"><i class="fas fa-caret-right"></i> Servicios</a>
+                </li>
+                <li>
+                  <a href="TYC"><i class="fas fa-caret-right"></i> Políticas de Privacidad</a>
+                </li>
+                <li>
+                  <a href="contactanos"><i class="fas fa-caret-right"></i> Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-widget-box list">
+              <h4 class="footer-widget-title">Newsletter</h4>
+              <div class="footer-newsletter">
+                <p>Suscríbete a nuestro boletín y recibe tips de nutrición y salud.</p>
+                <div class="subscribe-form">
+                  <form action="#">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Tu correo electrónico"
+                    />
+                    <button class="theme-btn" type="submit">
+                      <span class="far fa-envelope"></span> Suscribirse
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 align-self-center">
+            <p class="copyright-text">
+              &copy; Copyright <span id="date"></span>
+              <a href="https://softdevagency.com/"> Softdevagency-Keyla Aguilar</a> Todos los derechos reservados.
+            </p>
+          </div>
+          <div class="col-lg-6 align-self-center">
+            <ul class="footer-menu">
+              <li><a href="#">Soporte</a></li>
+              <li><a href="#">Términos de Servicio</a></li>
+              <li><a href="#">Política de Privacidad</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer area end -->
+  
+
+
+    <!-- scroll-top -->
+    <a href="#" id="scroll-top"><i class="far fa-angle-double-up"></i></a>
+    <!-- scroll-top end -->
+
+
+    <!-- js -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/counter-up.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/contact-form.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
